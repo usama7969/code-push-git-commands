@@ -1,0 +1,47 @@
+‼Using Command line to PUSH to GitHub‼
+
+
+
+1️⃣git init 
+
+2️⃣git status 
+
+3️⃣git add .
+
+
+
+
+
+ 
+
+*️⃣(If you upload first time than enter these two command to connect with GitHub) *️⃣
+
+▶git config --global user.name "usama7969" 
+▶git config --global user.email "usama@example.com"
+▶git config --global --list
+
+
+
+
+
+
+This is for delete sub-repository
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+cd "assignment 8">>> this example file name
+git status
+rmdir /s /q .git
+cd ..
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+4️⃣git commit  -m "first commit"
+
+5️⃣git branch -M main
+
+6️⃣git remote add origin  (then paste your respository link here) 
+
+7️⃣git push -u origin main
